@@ -1,0 +1,8 @@
+curl --location '192.168.100.95:31001/api/v1/basicAuth' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Basic YWRtaW5AZ21haWwuY29tOkFOU0trMDhhUEVEYkZqRE8=' \
+--data-raw '{
+  "uid": "08e2fb37-d5bf-4c19-bd13-d142853c7e2b",
+  "username": "tdi@tabeldata.com",
+  "password": "ANSKk08aPEDbFjDO"
+}'
